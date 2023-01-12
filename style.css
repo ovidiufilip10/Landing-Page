@@ -20,7 +20,7 @@ body{
 	padding: 0 20px;
 }
 .section-style{
-    padding :8rem 0;
+    padding:6rem 0;
     display: flex;
     background-color: #F2F6FF;
 }
@@ -29,8 +29,8 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 2rem 20px 2rem 20px;
-    width: 90%;
+	padding: 0rem 1.2rem 3rem 1.2rem;
+    width: 85%;
 }
 .nav-bar-txt{
 font-style: normal;
@@ -311,4 +311,55 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+.price-sec{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.top-card-txt{
+    font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+color: #000000;
+}
+
+.blue-mid-txt{
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #554DDE;
+}
+.red-mid-txt{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #F44E77;
+}
+.mid-blk-txt{
+    font-weight: 400;
+font-size: 1.5rem;
+line-height: 2.25rem;
+color: #16194F;
+padding: 1rem 0;
+}
+.price-card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.price-card-content{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 1131px;
+    background: #FFFFFF;
+    border: 0.5px solid #CAD6F1;
+    box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+    border-radius: 50px;
+}
+.center-col{
+    justify-content: center;
 }
