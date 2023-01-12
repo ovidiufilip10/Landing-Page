@@ -9,18 +9,28 @@ body{
     height: 100vw;
     width: 100vw;
 }
+.central-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-container {
+	max-width: 1440px;
+	justify-content: center;
+	padding: 0 20px;
+}
 .section-style{
     padding :8rem 0;
     display: flex;
-    
+    background-color: #F2F6FF;
 }
 
 .nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0 20px 4.5rem 20px;
-    width: 80%;
+	padding: 2rem 20px 2rem 20px;
+    width: 90%;
 }
 .nav-bar-txt{
 font-style: normal;
@@ -42,16 +52,16 @@ padding: 0 1.5rem;
     background-size: cover;
 	background-repeat: no-repeat;
     overflow: visible;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1440px;
 }
-.content-container {
-	max-width: 1200px;
-	justify-content: center;
-	padding: 0 20px;
+.sec-1-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .nav-bar-wrapper{
     justify-content: space-between;
@@ -84,7 +94,6 @@ padding: 0 1.5rem;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-    margin-left: 4rem;
     padding:0 5rem 0 8rem ;
 }
 .title-txt{
@@ -109,8 +118,7 @@ padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 5rem;
-}
+    }
 .phone-img{
     width: auto;
     height: 45rem;
@@ -139,7 +147,7 @@ padding: 1rem 2rem;
     display: block;
     transform: scale(var(--ggs,1));
     width: 22px;
-    height: 22px
+    height: 22px;
    }
    
    .gg-arrow-right::after,
@@ -148,7 +156,7 @@ padding: 1rem 2rem;
     display: block;
     box-sizing: border-box;
     position: absolute;
-    right: 3px
+    right: 3px;
    }
    
    .gg-arrow-right::after {
@@ -157,14 +165,14 @@ padding: 1rem 2rem;
     border-top: 2px solid;
     border-right: 2px solid;
     transform: rotate(45deg);
-    bottom: 7px
+    bottom: 7px;
    }
    
    .gg-arrow-right::before {
     width: 16px;
     height: 2px;
     bottom: 10px;
-    background: currentColor
+    background: currentColor;
    } 
 
 .big-blue-txt{
@@ -189,5 +197,118 @@ padding: 1rem 2rem;
 .credit-card{
     width: auto;
     height: 268px;
-    padding-right: 7rem;
+}
+.card-txt{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #000;
+padding: 0rem 2rem;
+}
+.bars-graph{
+    width: 350px;
+    height: auto;
+    padding: 1rem;
+}
+.small-box{
+width: 223px;
+height: 180px;
+background: #FFFFFF;
+border: 0.5px solid #CAD6F1;
+box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+border-radius: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 1.5rem;
+}
+
+.chart-box{
+    width: 463px;
+height: 248px;
+    background: #FFFFFF;
+border: 0.5px solid #CAD6F1;
+box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+border-radius: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 1.5rem;
+}
+.center-box-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-to-left{
+    align-items: baseline;
+}
+.second-blue-button{
+    background: #16194F;
+    border-radius: 20px;
+	width: 200px;
+    height: 54px;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 24px;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	padding: 0rem 1.5rem;
+    margin-left: 2rem;
+	white-space: pre;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-pics{
+    height: 60px;
+    width: auto;
+    padding-left: 2rem;
+}
+.chat-pic{
+    height: 55px;
+    width: auto;
+   margin: 0 1.2rem 2rem 1.2rem;
+}
+.chat-box-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+}
+.chat-timestamp-size{
+    font-size: 15px;
+    line-height: 22px;
+}
+.chat-box-white{
+    width: 366px;
+height: 70px;
+left: 827px;
+background: #FFFFFF;
+border-radius: 30px 30px 30px 0px;
+align-items: center;
+}
+.chat-box-blue{
+    width: 366px;
+height: 70px;
+left: 827px;
+background: #6A6D9E;
+border-radius: 30px 30px 0px 30px;
+align-items: center;
+}
+.chat-col{
+    flex-direction: column;
+}
+.response-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
