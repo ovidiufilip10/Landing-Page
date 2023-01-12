@@ -9,12 +9,18 @@ body{
     height: 100vw;
     width: 100vw;
 }
+.section-style{
+    padding :8rem 0;
+    display: flex;
+    
+}
 
 .nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 75px 20px;
+	padding: 0 20px 4.5rem 20px;
+    width: 80%;
 }
 .nav-bar-txt{
 font-style: normal;
@@ -37,6 +43,10 @@ padding: 0 1.5rem;
 	background-repeat: no-repeat;
     overflow: visible;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .content-container {
 	max-width: 1200px;
@@ -75,12 +85,13 @@ padding: 0 1.5rem;
 	justify-content: center;
 	align-items: flex-start;
     margin-left: 4rem;
+    padding:0 5rem 0 8rem ;
 }
 .title-txt{
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
-    line-height: 150%;
+    line-height: 60px;
     color: #FFFFFF;
     padding: 1rem 2rem;
 }
@@ -98,11 +109,11 @@ padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 5rem;
 }
 .phone-img{
     width: auto;
     height: 45rem;
-
 }
 .register-button{
     background: #16194F;
@@ -118,4 +129,65 @@ padding: 1rem 2rem;
 	padding: 0px 24px;
 	white-space: pre;
     margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gg-arrow-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+   }
+   
+   .gg-arrow-right::after,
+   .gg-arrow-right::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 3px
+   }
+   
+   .gg-arrow-right::after {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    bottom: 7px
+   }
+   
+   .gg-arrow-right::before {
+    width: 16px;
+    height: 2px;
+    bottom: 10px;
+    background: currentColor
+   } 
+
+.big-blue-txt{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #554DDE;
+    padding: 1rem 2rem;
+}
+.small-blue-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6A6D9E;
+    padding: 1rem 2rem;
+}
+.credit-card{
+    width: auto;
+    height: 268px;
+    padding-right: 7rem;
 }
