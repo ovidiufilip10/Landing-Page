@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 body{
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
 }
 .central-align{
@@ -331,6 +331,7 @@ font-weight: 700;
 font-size: 40px;
 line-height: 60px;
 color: #554DDE;
+padding-right: 0.8rem;
 }
 .red-mid-txt{
     font-weight: 700;
@@ -348,18 +349,102 @@ padding: 1rem 0;
 .price-card-wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 2rem;
 }
 .price-card-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     width: 430px;
     height: 1131px;
     background: #FFFFFF;
     border: 0.5px solid #CAD6F1;
     box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
     border-radius: 50px;
-}
+   }
 .center-col{
     justify-content: center;
+}
+.credit-card-small{
+    height: 200px;
+    width: 350px;
+}
+.white-button{
+    width: 170px;
+height: 54px;
+border: 1.5px solid #16194F;
+border-radius: 20px;
+padding: 1rem 2.5rem;
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 85%;
+}
+.checked-list> li{
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.6rem;
+padding: 0.5rem 0;
+color: #000;
+}
+.checked-list{
+    list-style-image: url("Check-icon\ 1.png");
+}
+.unchecked-list> li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding: 0.5rem 0;
+    color: #B7B7B7;
+    }
+.unchecked-list{
+    list-style-image: url("Check-icon\ 2.png");
+}
+.price-card-content > .small-blue-txt{
+text-align: center;
+}
+.faq-subtitle{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 2.1rem;
+text-align: center;
+color: #6A6D9E;
+width: 55%;
+padding: 1.2rem 0 4rem 0;
+}
+.faq-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.faq-block{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem 0;
+}
+.faq-txt{
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 2.1rem;
+color: #16194F;
+padding: 1.9rem;
+}
+.faq-plus{
+    height: 2rem;
+    width: 2rem;
+    align-self: center;
 }
