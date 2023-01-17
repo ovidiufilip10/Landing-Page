@@ -35,10 +35,11 @@ body{
 .nav-bar-txt{
 font-style: normal;
 font-weight: 400;
-font-size: 17px;
-line-height: 150%;
+font-size: 1.4rem;
+line-height: 1.8rem;
 color: #FFFFFF;
 padding: 0 1.5rem;
+
 }
 .row{
 	display: flex;
@@ -447,4 +448,41 @@ padding: 1.9rem;
     height: 2rem;
     width: 2rem;
     align-self: center;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #DCE2F0;
+    padding: 6rem 0;
+   max-width: 1440px;
+   width: 100%;
+  justify-content: space-around;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+.grid-item {
+    text-align: center;
+    padding: 1.6rem 3rem;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 2.1rem;
+color: #16194F;
+}
+.footer-txt{
+   width: 355px;
+   padding: 0;
+}
+.foot-logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.foot-logo-container > img{
+    width: 80px;
+    height: 85px;
 }
